@@ -1,0 +1,22 @@
+# ----------------------------------------
+# MECHANICAL SUBMODULE .gitignore
+# Repositorio: Rabosa-Mechanical (FreeCAD)
+# ----------------------------------------
+
+# Archivos de Backup y Lock de FreeCAD
+*.FCBak
+*.FCTemp
+*.lock
+*~
+# Archivos de Backup/Autoguardado de otros CAD
+*.bak
+*.tmp
+
+# Archivos Temporales de Exportación
+# Nota: Si los archivos STEP de producción están en 'STEP_Exports/',
+# puedes excluir solo los archivos temporales aquí.
+# Si solo subes los archivos de diseño fuente (.FCStd), no se necesita una regla específica para .step
+
+# Cache y Logs
+*.log
+*.cache
